@@ -143,3 +143,6 @@ This project is private and proprietary.
 ## Support
 
 For questions or support, contact: info@modestelegance.com
+
+## how to start
+export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" && npm run dev

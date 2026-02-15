@@ -5,16 +5,16 @@ import { useState } from "react";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-purple-50 via-white to-purple-50">
+    <div className="min-h-screen bg-gradient-to-b from-mauve-50 via-white to-mauve-50">
       {/* Simple Header */}
-      <header className="relative py-12 px-6 bg-gradient-to-br from-purple-900 via-purple-800 to-indigo-900 overflow-hidden">
+      <header className="relative py-12 px-6 bg-gradient-to-br from-mauve-800 via-mauve-700 to-mauve-900 overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.1)_1px,transparent_1px)] bg-[length:50px_50px]"></div>
         </div>
         <div className="max-w-6xl mx-auto relative z-10">
           <div className="flex items-center justify-between">
             {/* Left side - Logo */}
-            <div className="relative bg-white rounded-3xl p-5 shadow-2xl border-4 border-purple-400">
+            <div className="relative bg-white rounded-3xl p-5 shadow-2xl border-4 border-mauve-400">
               <Image 
                 src="/Grey Minimal Monogram Initials Logo.png" 
                 alt="Softly Covered Logo"
@@ -28,7 +28,7 @@ export default function Home() {
               <h1 className="text-white font-bold text-4xl drop-shadow-lg mb-2">
                 ✨ Softly Covered ✨
               </h1>
-              <p className="text-purple-100 text-xl drop-shadow-lg">
+              <p className="text-mauve-100 text-xl drop-shadow-lg">
                 Premium Quality Niqabs & Abayas
               </p>
             </div>
@@ -40,22 +40,24 @@ export default function Home() {
       <main className="py-16 px-6">
         <div className="max-w-6xl mx-auto">
           {/* About */}
-          <div className="bg-white rounded-3xl shadow-2xl overflow-hidden mb-12 border-2 border-purple-200">
+          <div className="bg-white rounded-3xl shadow-2xl overflow-hidden mb-12 border-2 border-mauve-200">
             <div className="grid md:grid-cols-2 gap-0">
-              <div className="h-80 md:h-auto relative bg-gradient-to-br from-purple-100 to-purple-50 flex items-center justify-center">
-                <div className="text-center p-8">
-                  <div className="text-6xl mb-4">🧕</div>
-                  <p className="text-purple-600 font-semibold text-lg">Your image will appear here</p>
-                </div>
+              <div className="h-80 md:h-auto relative">
+                <Image 
+                  src="/images/products/hijab_img_public/mainpic.jpeg" 
+                  alt="Our Collection"
+                  fill
+                  className="object-cover"
+                />
               </div>
-              <div className="p-10 flex flex-col justify-center bg-gradient-to-br from-purple-50 to-white">
-                <h3 className="text-4xl font-serif font-bold text-purple-900 mb-6">About Our Collection</h3>
-                <p className="text-purple-700 text-xl mb-5 leading-relaxed">
+              <div className="p-10 flex flex-col justify-center bg-gradient-to-br from-mauve-50 to-white">
+                <h3 className="text-4xl font-serif font-bold text-mauve-900 mb-6">About Our Collection</h3>
+                <p className="text-mauve-700 text-xl mb-5 leading-relaxed">
                   Every niqab is crafted with premium fabrics for superior comfort and elegance. 
                   We use only the finest materials and traditional craftsmanship to deliver 
                   authentic quality in every piece.
                 </p>
-                <p className="text-purple-700 text-xl leading-relaxed">
+                <p className="text-mauve-700 text-xl leading-relaxed">
                   Combining modesty, comfort, and style for the modern Muslim woman. ✨
                 </p>
               </div>
@@ -64,26 +66,26 @@ export default function Home() {
 
           {/* Products */}
           <div className="mb-12">
-            <h3 className="text-4xl font-serif font-bold text-purple-900 mb-8 text-center">Our Beautiful Collection</h3>
+            <h3 className="text-4xl font-serif font-bold text-mauve-900 mb-8 text-center">Our Beautiful Collection</h3>
             <div className="grid md:grid-cols-2 gap-8">
               {[
                 { 
-                  name: "Dubai Style Abaya", 
-                  desc: "Elegant Dubai-style abaya with refined design", 
-                  price: "$79.99", 
-                  images: ["/images/products/hijab_img_public/dubai_style_a1.mp4", "/images/products/hijab_img_public/dubai_style_b1.mp4"] 
-                },
-                { 
-                  name: "Embroidered Abaya", 
-                  desc: "Stunning abaya with intricate embroidery details", 
-                  price: "$79.99", 
-                  images: ["/images/products/hijab_img_public/embro_1.jpg", "/images/products/hijab_img_public/embro_2.jpg", "/images/products/hijab_img_public/embro_3.jpg", "/images/products/hijab_img_public/embro_4.mp4", "/images/products/hijab_img_public/embro_5.jpg"] 
+                  name: "Embroidered Hijab", 
+                  desc: "Beautiful embroidered hijab with elegant design", 
+                  price: "$25.00", 
+                  images: ["/images/products/hijab_img_public/empbro_hijab2.mp4", "/images/products/hijab_img_public/embro_hijab1.jpeg"] 
                 },
                 { 
                   name: "Embroidered Sleeve Abaya", 
                   desc: "Beautiful abaya featuring embroidered sleeves", 
                   price: "$79.99", 
                   images: ["/images/products/hijab_img_public/embroid_sleve1.mp4"] 
+                },
+                { 
+                  name: "Embroidered Abaya", 
+                  desc: "Stunning abaya with intricate embroidery details", 
+                  price: "$79.99", 
+                  images: ["/images/products/hijab_img_public/embro_1.jpg", "/images/products/hijab_img_public/embro_2.jpg", "/images/products/hijab_img_public/embro_3.jpg", "/images/products/hijab_img_public/embro_4.mp4", "/images/products/hijab_img_public/embro_5.jpg"] 
                 },
                 { 
                   name: "Green Print Abaya", 
@@ -98,10 +100,46 @@ export default function Home() {
                   images: ["/images/products/hijab_img_public/maroon_print.mp4"] 
                 },
                 { 
+                  name: "Rust Print Abaya", 
+                  desc: "Warm rust-colored printed abaya with unique pattern", 
+                  price: "$79.99", 
+                  images: ["/images/products/hijab_img_public/rust_print1.mp4", "/images/products/hijab_img_public/rust_print2.jpg", "/images/products/hijab_img_public/rust_print3.jpg", "/images/products/hijab_img_public/rust_print4.jpg"] 
+                },
+                { 
+                  name: "Silk Print Abaya", 
+                  desc: "Luxurious silk printed abaya with premium finish", 
+                  price: "$79.99", 
+                  images: ["/images/products/hijab_img_public/silk_print_1.jpg", "/images/products/hijab_img_public/silk_print_2.jpg", "/images/products/hijab_img_public/silk_print_3.jpg", "/images/products/hijab_img_public/silk_print_4.jpg", "/images/products/hijab_img_public/silk_print_5.jpg", "/images/products/hijab_img_public/silk_print_6.mp4"] 
+                },
+                { 
+                  name: "Teal Print Abaya", 
+                  desc: "Beautiful teal printed abaya with contemporary style", 
+                  price: "$79.99", 
+                  images: ["/images/products/hijab_img_public/teel_print_1.mp4", "/images/products/hijab_img_public/teel_print_2.jpg", "/images/products/hijab_img_public/teel_print_3.jpg", "/images/products/hijab_img_public/teel_print_4.jpg", "/images/products/hijab_img_public/teel_print_5.jpg"] 
+                },
+                { 
+                  name: "Dubai Style Abaya", 
+                  desc: "Elegant Dubai-style abaya with refined design", 
+                  price: "$79.99", 
+                  images: ["/images/products/hijab_img_public/dubai_style_a1.mp4", "/images/products/hijab_img_public/dubai_style_b1.mp4"] 
+                },
+                { 
                   name: "Net Abaya", 
                   desc: "Delicate net fabric abaya with graceful appearance", 
                   price: "$79.99", 
                   images: ["/images/products/hijab_img_public/net_1.mp4", "/images/products/hijab_img_public/net_2.jpg", "/images/products/hijab_img_public/net_3.jpg", "/images/products/hijab_img_public/net_4.jpg", "/images/products/hijab_img_public/net_5.jpg"] 
+                },
+                { 
+                  name: "Side Pattern Abaya", 
+                  desc: "Modern abaya with decorative side pattern detail", 
+                  price: "$79.99", 
+                  images: ["/images/products/hijab_img_public/side_pattern1.mp4"] 
+                },
+                { 
+                  name: "Swayed Abaya", 
+                  desc: "Graceful flowing abaya with elegant sway", 
+                  price: "$79.99", 
+                  images: ["/images/products/hijab_img_public/swayed_1.mp4", "/images/products/hijab_img_public/swayed_2.jpg", "/images/products/hijab_img_public/swayed_3.jpg", "/images/products/hijab_img_public/swayed_4.jpg"] 
                 },
                 { 
                   name: "Reversible Abaya (Black/Brown)", 
@@ -115,36 +153,6 @@ export default function Home() {
                   price: "$79.99", 
                   images: ["/images/products/hijab_img_public/reversable_green1.mp4", "/images/products/hijab_img_public/reversable_green1(black-out-green-in)).jpg", "/images/products/hijab_img_public/reversable_green2.jpg", "/images/products/hijab_img_public/reversable_green2(black-out-green-in)).jpg", "/images/products/hijab_img_public/reversable_green3(black-out-green-in).jpg", "/images/products/hijab_img_public/reversable_green3(green-out-black-in).jpg", "/images/products/hijab_img_public/reversable_green4(black-out-green-in).jpg", "/images/products/hijab_img_public/reversable_green5(black-out-green-in).mp4"] 
                 },
-                { 
-                  name: "Rust Print Abaya", 
-                  desc: "Warm rust-colored printed abaya with unique pattern", 
-                  price: "$79.99", 
-                  images: ["/images/products/hijab_img_public/rust_print1.mp4", "/images/products/hijab_img_public/rust_print2.jpg", "/images/products/hijab_img_public/rust_print3.jpg", "/images/products/hijab_img_public/rust_print4.jpg"] 
-                },
-                { 
-                  name: "Side Pattern Abaya", 
-                  desc: "Modern abaya with decorative side pattern detail", 
-                  price: "$79.99", 
-                  images: ["/images/products/hijab_img_public/side_pattern1.mp4"] 
-                },
-                { 
-                  name: "Silk Print Abaya", 
-                  desc: "Luxurious silk printed abaya with premium finish", 
-                  price: "$79.99", 
-                  images: ["/images/products/hijab_img_public/silk_print_1.jpg", "/images/products/hijab_img_public/silk_print_2.jpg", "/images/products/hijab_img_public/silk_print_3.jpg", "/images/products/hijab_img_public/silk_print_4.jpg", "/images/products/hijab_img_public/silk_print_5.jpg", "/images/products/hijab_img_public/silk_print_6.mp4"] 
-                },
-                { 
-                  name: "Swayed Abaya", 
-                  desc: "Graceful flowing abaya with elegant sway", 
-                  price: "$79.99", 
-                  images: ["/images/products/hijab_img_public/swayed_1.mp4", "/images/products/hijab_img_public/swayed_2.jpg", "/images/products/hijab_img_public/swayed_3.jpg", "/images/products/hijab_img_public/swayed_4.jpg"] 
-                },
-                { 
-                  name: "Teal Print Abaya", 
-                  desc: "Beautiful teal printed abaya with contemporary style", 
-                  price: "$79.99", 
-                  images: ["/images/products/hijab_img_public/teel_print_1.mp4", "/images/products/hijab_img_public/teel_print_2.jpg", "/images/products/hijab_img_public/teel_print_3.jpg", "/images/products/hijab_img_public/teel_print_4.jpg", "/images/products/hijab_img_public/teel_print_5.jpg"] 
-                },
               ].map((product, i) => (
                 <ProductCard key={i} product={product} />
               ))}
@@ -152,12 +160,12 @@ export default function Home() {
           </div>
 
           {/* Contact */}
-          <div className="bg-gradient-to-br from-purple-800 to-purple-900 rounded-3xl shadow-2xl p-10 text-white text-center relative overflow-hidden">
+          <div className="bg-gradient-to-br from-mauve-800 to-mauve-900 rounded-3xl shadow-2xl p-10 text-white text-center relative overflow-hidden">
             <div className="absolute top-0 right-0 w-40 h-40 bg-pink-500 rounded-full blur-3xl opacity-20"></div>
-            <div className="absolute bottom-0 left-0 w-40 h-40 bg-purple-400 rounded-full blur-3xl opacity-20"></div>
+            <div className="absolute bottom-0 left-0 w-40 h-40 bg-mauve-400 rounded-full blur-3xl opacity-20"></div>
             <div className="relative z-10">
               <h3 className="text-4xl font-serif font-bold mb-4">Get in Touch</h3>
-              <p className="text-purple-100 text-xl mb-6">
+              <p className="text-mauve-100 text-xl mb-6">
                 Ready to order? Contact us today! 📦
               </p>
               <div className="space-y-3 text-xl">
@@ -165,7 +173,7 @@ export default function Home() {
                 <p className="font-medium">📍 Your Location</p>
                 <p className="font-medium">✉️ info@modestelegance.com</p>
               </div>
-              <a href="tel:5551234567" className="inline-block mt-8 bg-gradient-to-r from-pink-400 to-purple-600 hover:from-pink-500 hover:to-purple-700 text-white px-10 py-5 rounded-full text-xl font-bold transition-all shadow-xl hover:shadow-2xl transform hover:scale-105">
+              <a href="tel:5551234567" className="inline-block mt-8 bg-gradient-to-r from-pink-400 to-mauve-600 hover:from-pink-500 hover:to-mauve-700 text-white px-10 py-5 rounded-full text-xl font-bold transition-all shadow-xl hover:shadow-2xl transform hover:scale-105">
                 🛒 Place an Order
               </a>
             </div>
@@ -174,7 +182,7 @@ export default function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="py-8 px-6 text-center text-purple-700">
+      <footer className="py-8 px-6 text-center text-mauve-700">
         <p className="text-lg">✨ &copy; 2026 Modest Elegance. All rights reserved. ✨</p>
       </footer>
     </div>
@@ -182,12 +190,12 @@ export default function Home() {
 }
 
 function ProductCard({ product }: { product: { name: string; desc: string; price: string; images: string[] } }) {
-  // Sort images so non-videos come first
+  // Sort videos first, then images
   const sortedImages = [...product.images].sort((a, b) => {
     const aIsVideo = a.endsWith('.mp4') || a.endsWith('.webm') || a.endsWith('.mov');
     const bIsVideo = b.endsWith('.mp4') || b.endsWith('.webm') || b.endsWith('.mov');
     if (aIsVideo === bIsVideo) return 0;
-    return aIsVideo ? 1 : -1;
+    return aIsVideo ? -1 : 1;
   });
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -206,8 +214,13 @@ function ProductCard({ product }: { product: { name: string; desc: string; price
 
   return (
     <>
-      <div className="bg-white rounded-3xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border-2 border-transparent hover:border-purple-400">
-        <div className="h-96 relative overflow-hidden group bg-gradient-to-br from-purple-100 to-purple-50 cursor-pointer" onClick={() => setIsModalOpen(true)}>
+      <div className="bg-white rounded-3xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border-2 border-transparent hover:border-mauve-400">
+        <div className="h-96 relative overflow-hidden group bg-gradient-to-br from-mauve-100 to-mauve-50 cursor-pointer" onClick={() => setIsModalOpen(true)}>
+          <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-all duration-300 z-10 flex items-center justify-center">
+            <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-white/90 rounded-full p-3 shadow-xl">
+              <span className="text-2xl">🔍</span>
+            </div>
+          </div>
           {isVideo ? (
             <video 
               src={currentMedia}
@@ -229,17 +242,17 @@ function ProductCard({ product }: { product: { name: string; desc: string; price
           <>
             <button 
               onClick={(e) => { e.stopPropagation(); prevImage(); }}
-              className="absolute left-2 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white text-purple-900 rounded-full p-3 shadow-xl hover:scale-110 transition-all font-bold text-xl z-10"
+              className="absolute left-2 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white text-mauve-900 rounded-full p-3 shadow-xl hover:scale-110 transition-all font-bold text-xl z-10"
             >
               ←
             </button>
             <button 
               onClick={(e) => { e.stopPropagation(); nextImage(); }}
-              className="absolute right-2 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white text-purple-900 rounded-full p-3 shadow-xl hover:scale-110 transition-all font-bold text-xl z-10"
+              className="absolute right-2 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white text-mauve-900 rounded-full p-3 shadow-xl hover:scale-110 transition-all font-bold text-xl z-10"
             >
               →
             </button>
-            <div className="absolute top-3 right-3 bg-purple-900/80 text-white px-3 py-1 rounded-full text-sm font-bold shadow-lg">
+            <div className="absolute top-3 right-3 bg-mauve-900/80 text-white px-3 py-1 rounded-full text-sm font-bold shadow-lg">
               📸 {currentImageIndex + 1}/{sortedImages.length}
             </div>
             <div className="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-2 bg-purple-900/60 px-3 py-2 rounded-full z-10">
