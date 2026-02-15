@@ -53,8 +53,8 @@ export default function Home() {
               <div className="p-10 flex flex-col justify-center bg-gradient-to-br from-mauve-50 to-white">
                 <h3 className="text-4xl font-serif font-bold text-mauve-900 mb-6">About Our Collection</h3>
                 <p className="text-mauve-700 text-xl mb-5 leading-relaxed">
-                  Every product is crafted with premium fabrics for superior comfort and elegance. 
-                  our products are finest materials and traditional craftsmanship to deliver 
+                  Every product is crafted with premium fabrics for superior comfort and elegance.  
+                  Our products use the finest materials and traditional craftsmanship to deliver
                   authentic quality in every piece.
                 </p>
                 <p className="text-mauve-700 text-xl leading-relaxed">
