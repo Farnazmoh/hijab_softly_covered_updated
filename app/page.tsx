@@ -77,7 +77,7 @@ export default function Home() {
                   <p>Buy 2 Items</p>
                 </div>
                 <div className="bg-white/30 backdrop-blur-sm rounded-2xl px-6 py-4 border-2 border-white/50 hover:bg-white/35 transition-all transform scale-105">
-                  <p className="text-2xl font-bold mb-1">20% OFF</p>
+                  <p className="text-2xl font-bold mb-1">15% OFF</p>
                   <p>Buy 3+ Items</p>
                 </div>
               </div>
@@ -198,13 +198,12 @@ export default function Home() {
                 <p className="text-2xl font-bold mb-3">💰 Volume Discounts Available!</p>
                 <div className="flex justify-center gap-8 text-lg">
                   <p>✨ 10% off on 2 items</p>
-                  <p>✨ 20% off on 3+ items</p>
+                  <p>✨ 15% off on 3+ items</p>
                 </div>
               </div>
               <div className="space-y-3 text-xl">
-                <p className="font-medium">📞 +1 (437) 818-4742</p>
                 <p className="font-medium">Markham</p>
-                <p className="font-medium">✉️ info@modestelegance.com</p>
+                <p className="font-medium">✉️ info@softlycovered.com</p>
               </div>
               <a href="tel:4378184742" className="inline-block mt-8 bg-gradient-to-r from-pink-400 to-mauve-600 hover:from-pink-500 hover:to-mauve-700 text-white px-10 py-5 rounded-full text-xl font-bold transition-all shadow-xl hover:shadow-2xl transform hover:scale-105">
                 📞 Call 
