@@ -252,8 +252,8 @@ function ProductCard({ product }: { product: { name: string; desc: string; price
       <div className="bg-white rounded-3xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border-2 border-transparent hover:border-mauve-400">
         <div className="h-96 relative overflow-hidden group bg-gradient-to-br from-mauve-100 to-mauve-50 cursor-pointer" onClick={() => setIsModalOpen(true)}>
           <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-all duration-300 z-10 flex items-center justify-center">
-            <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-white/90 rounded-full p-3 shadow-xl">
-              <span className="text-2xl">🔍</span>
+            <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-white/90 rounded-full px-4 py-2 shadow-xl">
+              <span className="text-lg font-semibold text-mauve-900">⤢ Click to Enlarge</span>
             </div>
           </div>
           {isVideo ? (
