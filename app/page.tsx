@@ -70,61 +70,61 @@ export default function Home() {
                 { 
                   name: "Dubai Style Abaya", 
                   desc: "Elegant Dubai-style abaya with refined design", 
-                  price: "$49.99", 
+                  price: "$79.99", 
                   images: ["/images/products/hijab_img_public/dubai_style_a1.mp4", "/images/products/hijab_img_public/dubai_style_b1.mp4"] 
                 },
                 { 
                   name: "Embroidered Abaya", 
                   desc: "Stunning abaya with intricate embroidery details", 
-                  price: "$64.99", 
+                  price: "$79.99", 
                   images: ["/images/products/hijab_img_public/embro_1.jpg", "/images/products/hijab_img_public/embro_2.jpg", "/images/products/hijab_img_public/embro_3.jpg", "/images/products/hijab_img_public/embro_4.mp4", "/images/products/hijab_img_public/embro_5.jpg"] 
                 },
                 { 
                   name: "Embroidered Sleeve Abaya", 
                   desc: "Beautiful abaya featuring embroidered sleeves", 
-                  price: "$59.99", 
+                  price: "$79.99", 
                   images: ["/images/products/hijab_img_public/embroid_sleve1.mp4"] 
                 },
                 { 
                   name: "Green Print Abaya", 
                   desc: "Stylish green printed abaya with modern pattern", 
-                  price: "$44.99", 
+                  price: "$79.99", 
                   images: ["/images/products/hijab_img_public/green_print.mp4"] 
                 },
                 { 
                   name: "Maroon Print Abaya", 
                   desc: "Rich maroon printed abaya with elegant design", 
-                  price: "$44.99", 
+                  price: "$79.99", 
                   images: ["/images/products/hijab_img_public/maroon_print.mp4"] 
                 },
                 { 
                   name: "Net Abaya", 
                   desc: "Delicate net fabric abaya with graceful appearance", 
-                  price: "$54.99", 
+                  price: "$79.99", 
                   images: ["/images/products/hijab_img_public/net_1.mp4", "/images/products/hijab_img_public/net_2.jpg", "/images/products/hijab_img_public/net_3.jpg", "/images/products/hijab_img_public/net_4.jpg", "/images/products/hijab_img_public/net_5.jpg"] 
                 },
                 { 
                   name: "Reversible Abaya (Black/Brown)", 
                   desc: "Versatile reversible abaya - black on one side, brown on the other", 
-                  price: "$69.99", 
+                  price: "$79.99", 
                   images: ["/images/products/hijab_img_public/Reversable_abhaya_a1MOV.mp4", "/images/products/hijab_img_public/reversable_abhaya_b1(black-inbrown-out.jpg", "/images/products/hijab_img_public/reversable_abhaya_b2(black-inbrown-out).jpg", "/images/products/hijab_img_public/reversable_abhaya_b3(black-inbrown-out).mp4", "/images/products/hijab_img_public/reversable_abhaya_b4(brown-inblack-out)(brown_in.mp4"] 
                 },
                 { 
                   name: "Reversible Abaya (Black/Green)", 
                   desc: "Two abayas in one - beautiful black and green reversible design", 
-                  price: "$69.99", 
+                  price: "$79.99", 
                   images: ["/images/products/hijab_img_public/reversable_green1.mp4", "/images/products/hijab_img_public/reversable_green1(black-out-green-in)).jpg", "/images/products/hijab_img_public/reversable_green2.jpg", "/images/products/hijab_img_public/reversable_green2(black-out-green-in)).jpg", "/images/products/hijab_img_public/reversable_green3(black-out-green-in).jpg", "/images/products/hijab_img_public/reversable_green3(green-out-black-in).jpg", "/images/products/hijab_img_public/reversable_green4(black-out-green-in).jpg", "/images/products/hijab_img_public/reversable_green5(black-out-green-in).mp4"] 
                 },
                 { 
                   name: "Rust Print Abaya", 
                   desc: "Warm rust-colored printed abaya with unique pattern", 
-                  price: "$44.99", 
+                  price: "$79.99", 
                   images: ["/images/products/hijab_img_public/rust_print1.mp4", "/images/products/hijab_img_public/rust_print2.jpg", "/images/products/hijab_img_public/rust_print3.jpg", "/images/products/hijab_img_public/rust_print4.jpg"] 
                 },
                 { 
                   name: "Side Pattern Abaya", 
                   desc: "Modern abaya with decorative side pattern detail", 
-                  price: "$52.99", 
+                  price: "$79.99", 
                   images: ["/images/products/hijab_img_public/side_pattern1.mp4"] 
                 },
                 { 
@@ -136,13 +136,13 @@ export default function Home() {
                 { 
                   name: "Swayed Abaya", 
                   desc: "Graceful flowing abaya with elegant sway", 
-                  price: "$54.99", 
+                  price: "$79.99", 
                   images: ["/images/products/hijab_img_public/swayed_1.mp4", "/images/products/hijab_img_public/swayed_2.jpg", "/images/products/hijab_img_public/swayed_3.jpg", "/images/products/hijab_img_public/swayed_4.jpg"] 
                 },
                 { 
                   name: "Teal Print Abaya", 
                   desc: "Beautiful teal printed abaya with contemporary style", 
-                  price: "$44.99", 
+                  price: "$79.99", 
                   images: ["/images/products/hijab_img_public/teel_print_1.mp4", "/images/products/hijab_img_public/teel_print_2.jpg", "/images/products/hijab_img_public/teel_print_3.jpg", "/images/products/hijab_img_public/teel_print_4.jpg", "/images/products/hijab_img_public/teel_print_5.jpg"] 
                 },
               ].map((product, i) => (
