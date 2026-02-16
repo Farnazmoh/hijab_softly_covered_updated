@@ -160,7 +160,7 @@ export default function Home() {
                 },
                 { 
                   name: "Suede Abaya", 
-                  desc: "Graceful flowing abaya with elegant sway", 
+                  desc: "Good for winter and Graceful flowing abaya with elegant sway", 
                   price: "$79.99", 
                   images: ["/images/products/hijab_img_public/swayed_1.mp4", "/images/products/hijab_img_public/swayed_2.jpg", "/images/products/hijab_img_public/swayed_3.jpg", "/images/products/hijab_img_public/swayed_4.jpg"] 
                 },
