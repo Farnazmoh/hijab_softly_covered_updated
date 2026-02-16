@@ -156,7 +156,7 @@ export default function Home() {
                   images: ["/images/products/hijab_img_public/side_pattern1.mp4"] 
                 },
                 { 
-                  name: "Sued Abaya", 
+                  name: "Suede Abaya", 
                   desc: "Graceful flowing abaya with elegant sway", 
                   price: "$79.99", 
                   images: ["/images/products/hijab_img_public/swayed_1.mp4", "/images/products/hijab_img_public/swayed_2.jpg", "/images/products/hijab_img_public/swayed_3.jpg", "/images/products/hijab_img_public/swayed_4.jpg"] 
@@ -165,7 +165,7 @@ export default function Home() {
                   name: "Reversible Abaya (Black/Brown)", 
                   desc: "Versatile reversible abaya - black on one side, brown on the other", 
                   price: "$94.99", 
-                  images: ["/images/products/hijab_img_public/Reversable_abhaya_a1MOV.mp4", "/images/products/hijab_img_public/reversable_abhaya_b1(black-inbrown-out.jpg", "/images/products/hijab_img_public/reversable_abhaya_b2(black-inbrown-out).jpg", "/images/products/hijab_img_public/reversable_abhaya_b3(black-inbrown-out).mp4", "/images/products/hijab_img_public/reversable_abhaya_b4(brown-inblack-out)(brown_in.mp4"] 
+                  images: ["/images/products/hijab_img_public/reversable_abhaya_b1(black-inbrown-out.jpg", "/images/products/hijab_img_public/reversable_abhaya_b2(black-inbrown-out).jpg", "/images/products/hijab_img_public/reversable_abhaya_b3(black-inbrown-out).mp4", "/images/products/hijab_img_public/reversable_abhaya_b4(brown-inblack-out)(brown_in.mp4"] 
                 },
                 { 
                   name: "Reversible Abaya (Black/Green)", 
