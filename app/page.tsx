@@ -53,9 +53,10 @@ export default function Home() {
               <div className="p-10 flex flex-col justify-center bg-gradient-to-br from-mauve-50 to-white">
                 <h3 className="text-4xl font-serif font-bold text-mauve-900 mb-6">About Our Collection</h3>
                 <p className="text-mauve-700 text-xl mb-5 leading-relaxed">
-                  Every product is crafted with premium fabrics for superior comfort and elegance.  
-                  Our products use the finest materials and traditional craftsmanship to deliver
-                  authentic quality in every piece.
+                  Our premium quality abayas are stylish, flowy, and beautifully modest. 
+                  Made with high-quality fabric for comfort and elegance.
+                  Designed for a graceful and flattering fit.
+                  Perfect for every occasion.
                 </p>
                 <p className="text-mauve-700 text-xl leading-relaxed">
                   Combining modesty, comfort, and style for the modern Muslim woman. ✨
@@ -95,6 +96,7 @@ export default function Home() {
                   price: "$19.99", 
                   images: ["/images/products/hijab_img_public/empbro_hijab2.mp4", "/images/products/hijab_img_public/embro_hijab1.jpeg"] 
                 },
+                
                 { 
                   name: "Embroidered Sleeve Abaya", 
                   desc: "Beautiful abaya featuring embroidered sleeves", 
@@ -102,10 +104,10 @@ export default function Home() {
                   images: ["/images/products/hijab_img_public/embroid_sleve1.mp4"] 
                 },
                 { 
-                  name: "Embroidered Abaya", 
-                  desc: "Stunning abaya with intricate embroidery details", 
-                  price: "$79.99", 
-                  images: ["/images/products/hijab_img_public/embro_1.jpg", "/images/products/hijab_img_public/embro_2.jpg", "/images/products/hijab_img_public/embro_3.jpg", "/images/products/hijab_img_public/embro_4.mp4", "/images/products/hijab_img_public/embro_5.jpg"] 
+                  name: "Net Abaya", 
+                  desc: "Delicate net fabric abaya with graceful appearance", 
+                  price: "$89.99", 
+                  images: ["/images/products/hijab_img_public/net_1.mp4", "/images/products/hijab_img_public/net_2.jpg", "/images/products/hijab_img_public/net_3.jpg", "/images/products/hijab_img_public/net_4.jpg", "/images/products/hijab_img_public/net_5.jpg"] 
                 },
                 { 
                   name: "Green Print Abaya", 
@@ -126,8 +128,8 @@ export default function Home() {
                   images: ["/images/products/hijab_img_public/rust_print1.mp4", "/images/products/hijab_img_public/rust_print2.jpg", "/images/products/hijab_img_public/rust_print3.jpg", "/images/products/hijab_img_public/rust_print4.jpg"] 
                 },
                 { 
-                  name: "Silk Print Abaya", 
-                  desc: "Luxurious silk printed abaya with premium finish", 
+                  name: "Satin Print Abaya", 
+                  desc: "Luxurious satin printed abaya with premium finish", 
                   price: "$84.99", 
                   images: ["/images/products/hijab_img_public/silk_print_1.jpg", "/images/products/hijab_img_public/silk_print_2.jpg", "/images/products/hijab_img_public/silk_print_3.jpg", "/images/products/hijab_img_public/silk_print_4.jpg", "/images/products/hijab_img_public/silk_print_5.jpg", "/images/products/hijab_img_public/silk_print_6.mp4"] 
                 },
@@ -144,11 +146,12 @@ export default function Home() {
                   images: ["/images/products/hijab_img_public/dubai_style_a1.mp4", "/images/products/hijab_img_public/dubai_style_b1.mp4"] 
                 },
                 { 
-                  name: "Net Abaya", 
-                  desc: "Delicate net fabric abaya with graceful appearance", 
+                  name: "Dubai Style Abaya", 
+                  desc: "Elegant Dubai-style abaya with refined design", 
                   price: "$89.99", 
-                  images: ["/images/products/hijab_img_public/net_1.mp4", "/images/products/hijab_img_public/net_2.jpg", "/images/products/hijab_img_public/net_3.jpg", "/images/products/hijab_img_public/net_4.jpg", "/images/products/hijab_img_public/net_5.jpg"] 
+                  images: ["/images/products/hijab_img_public/dubai_style_b1.mp4"] 
                 },
+                
                 { 
                   name: "Side Pattern Abaya", 
                   desc: "Modern abaya with decorative side pattern detail", 
@@ -178,6 +181,12 @@ export default function Home() {
                   desc: "Premium Quality flowy side pleated abaya", 
                   price: "$94.99", 
                   images: ["/images/products/hijab_img_public/Reversable_abhaya_a1MOV.mp4"] 
+                },
+                { 
+                  name: "Embroidered Abaya", 
+                  desc: "Stunning abaya with intricate embroidery details", 
+                  price: "$69.99", 
+                  images: ["/images/products/hijab_img_public/embro_1.jpg", "/images/products/hijab_img_public/embro_2.jpg", "/images/products/hijab_img_public/embro_3.jpg", "/images/products/hijab_img_public/embro_4.mp4", "/images/products/hijab_img_public/embro_5.jpg"] 
                 }
               ].map((product, i) => (
                 <ProductCard key={i} product={product} />
