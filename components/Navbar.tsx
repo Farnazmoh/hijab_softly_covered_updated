@@ -27,6 +27,9 @@ export default function Navbar() {
             <Link href="/about" className="text-gray-700 hover:text-primary font-medium transition-colors">
               About
             </Link>
+            <Link href="/mehandi-booking" className="text-gray-700 hover:text-primary font-medium transition-colors">
+              Mehandi Booking
+            </Link>
             <Link href="/contact" className="text-gray-700 hover:text-primary font-medium transition-colors">
               Contact
             </Link>
@@ -79,6 +82,13 @@ export default function Navbar() {
               onClick={() => setIsMenuOpen(false)}
             >
               About
+            </Link>
+            <Link
+              href="/mehandi-booking"
+              className="block text-gray-700 hover:text-primary font-medium py-2"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Mehandi Booking
             </Link>
             <Link
               href="/contact"

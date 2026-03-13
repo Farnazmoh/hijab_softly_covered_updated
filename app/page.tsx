@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 
 export default function Home() {
@@ -35,6 +36,18 @@ export default function Home() {
           </div>
         </div>
       </header>
+
+      {/* Mehandi Booking Banner */}
+      <div className="bg-mauve-100 border-b-2 border-mauve-200 py-4 px-6 flex justify-center">
+        <Link
+          href="/mehandi-booking"
+          className="group inline-flex items-center gap-3 bg-mauve-700 hover:bg-mauve-800 text-white font-bold px-10 py-3 rounded-full shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 transition-all duration-200 text-sm tracking-wide"
+        >
+          <span className="text-xl group-hover:scale-110 transition-transform duration-200">🌿</span>
+          Book Mehandi Appointment
+          <span className="text-mauve-300 text-xs font-normal">→</span>
+        </Link>
+      </div>
 
       {/* Main Content */}
       <main className="py-16 px-6">
@@ -72,6 +85,7 @@ export default function Home() {
             <div className="absolute bottom-0 left-0 w-32 h-32 bg-mauve-400 rounded-full blur-3xl opacity-20"></div>
             <div className="relative z-10">
               <h3 className="text-3xl md:text-4xl font-bold mb-4">🎉 Special Bulk Discounts! 🎉</h3>
+              <p className="text-lg mb-4 text-white/90">✨ Mix & Match Any Items ✨</p>
               <div className="flex flex-col md:flex-row justify-center gap-6 md:gap-12 text-lg md:text-xl font-semibold">
                 <div className="bg-white/20 backdrop-blur-sm rounded-2xl px-6 py-4 border-2 border-white/40 hover:bg-white/25 transition-all">
                   <p className="text-2xl font-bold mb-1">10% OFF</p>
@@ -205,6 +219,7 @@ export default function Home() {
               </p>
               <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 mb-6 border-2 border-white/20">
                 <p className="text-2xl font-bold mb-3">💰 Volume Discounts Available!</p>
+                <p className="text-lg mb-3 text-white/90">Mix & Match Any Items</p>
                 <div className="flex justify-center gap-8 text-lg">
                   <p>✨ 10% off on 2 items</p>
                   <p>✨ 15% off on 3+ items</p>
